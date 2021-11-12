@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=2.0">
+        <title>Survey Form</title>
+        <!-- css file link -->
+        <link rel="stylesheet" href="form.css">
+    </head>
+    <body>
+<div class="container">
+    <header class="header">
+        <h1 id="title">
+            Survey from FLASHHUB
+        </h1>
+        <p id="description">
+            Thanks for spending your valuable time to improve our plateform
+        </p>
+    </header>
+    <form action="" id="survye-form">
+        <!--Text Section-->
+        <div class="form-group">
+            <label for="name">Name</label>
+            <input type="text"
+            name="name" id="name"
+            class="for"mControl"
+            placeholder="Enter your name"
+            required>
+        </div>
+        <!--end of text section-->
+
+        <!--Type Email Section-->
+        <div class="form-group">
+            <label for="email">Email</label>
+            <input type="email"
+            name="email" id="email"
+            class="formControl"
+            placeholder="Enter your email"
+            required>
+        </div>
+        <!--end of type email section-->
+
+        <!--Type number section-->
+        <div class="form-group">
+            <label for="Mobile">Mobile Number</label>
+            <input type="Mobile"
+            name="Mobile" id="Mobile"
+            class="formControl"
+            placeholder="Enter your Mobile Number"
+            required>
+            </div>
+        <!--end of number section-->
+
+        <!--Address Section-->
+        <div class="form-group">
+            <label for="Address">Address
+                <span class="clue">(optional)</span>
+            </label>
+            <input type="text"
+            name="Address" id="Adress"
+            class="formControl"
+            placeholder="Enter your Address"
+            required>
+            </div>
+        <!--end of address section-->
+
+        <!--Select Section-->
+        <div class="form-group">
+            <p id="quest">What is the best option to describe your role?</p>
+            <select name="role" id="dropdown"
+            class="formControl" required>
+            <option value=""disabled selected>Select your current role</option>
+            <option value="student">Student</option>
+            <option value="teacher">Teacher</option>
+            <option value="job">Job</option>
+            <option value="others">Others</option>
+
+        </select>
+        </div>
+        <!--end of select section-->
+
+        <!--radio button section-->
+        <div class="form-group">
+            <p id="quest">From where you come to know about FLASHHUB</p>
+            <label for="">
+                <input type="radio"
+                name="source"
+                value="friends"
+                class="inputRadio"
+                >Friends
+            </label>
+            <label for="">
+                <input type="radio"
+                name="source"
+                value="Advertisement"
+                class="inputRadio"
+                >Advertisement
+            </label>
+            <label for="">
+                <input type="radio"
+                name="social-media Platform"
+                value="friends"
+                class="inputRadio"
+                >Social-Media Platform
+            </label>
+            <label for="">
+                <input type="radio"
+                name="source"
+                value="newspaper"
+                class="inputRadio"
+                >Newspaper
+            </label>
+        </div>
+        <!--end of radio button section-->
+
+        <!--Checkbox Section-->
+        <div class="form-group">
+            <p id="quest">Want to update any improvements</p>
+            <label for="">
+                <input type="checkbox"
+                value="back-end-dev">Back-end-Developer
+            </label>
+            <label for="">
+                <input type="checkbox"
+                value="front-end-dev">Front-End-Developer
+            </label>
+            <label for="">
+                <input type="checkbox"
+                value="android app-dev">Android App-Developer
+            </label>
+            <label for="">
+                <input type="checkbox"
+                value="soft-engineering">Software Engineering
+            </label>
+            <label for="">
+                <input type="checkbox"
+                value="others">Others
+            </label>
+        </div>
+
+        <!--end of checkbox section-->
+
+        <!--Textarea section-->
+        <div class="form-group">
+            <p id="quest">Drop down your Feedback</p>
+            <textarea name="feedback"
+            id="feedback" cols="40"
+            rows="7" class="textarea"
+            placeholder="Type your feedback here...."></textarea>
+        </div>
+        <!--end of textarea section-->
+
+        <!--submit button-->
+        <div class="form-group">
+            <button type="submit">
+                Submit</button>
+        </div>
+    </form>
+</body>
+</html>
